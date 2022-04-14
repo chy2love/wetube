@@ -4,17 +4,17 @@
   "description": "The best way to watch videos.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chy2love/wetube-reloaded.git"
+    "url": "git+https://github.com/chy2love/wetube.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node index.js"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "author": "Choi.HY",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chy2love/wetube-reloaded/issues"
+    "url": "https://github.com/chy2love/wetube/issues"
   },
-  "homepage": "https://github.com/chy2love/wetube-reloaded#readme",
+  "homepage": "https://github.com/chy2love/wetube#readme",
   "dependencies": {
     "express": "^4.17.3"
   },
