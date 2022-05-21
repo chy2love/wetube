@@ -7,7 +7,7 @@ export const edit = (req, res) =>
   res.render('edit', { pageTitle: 'Edit Videos' });
 
 export const search = (req, res) =>
-  res.send('Search', { pageTitle: 'Search Videos' });
+  res.render('search', { pageTitle: 'Search Videos' });
 
 export const deleteVideo = (req, res) =>
   res.render('deleteVideo', { pageTitle: 'Delete Videos' });
